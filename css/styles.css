@@ -97,7 +97,9 @@
   border-radius: 40px;
   width: 227px;
   height: 57px;
-  position: relative;
+  position: absolute;
+  left: 453px;
+  top: 282px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -111,14 +113,17 @@
 }
 .get-started {
   color: #000000;
-  text-align: center;
+  text-align: left;
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  position: relative;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .footer {
   padding: 10px;
