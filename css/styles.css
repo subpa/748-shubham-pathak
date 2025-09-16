@@ -97,24 +97,28 @@
   border-radius: 40px;
   width: 227px;
   height: 57px;
-  position: absolute;
-  left: 453px;
-  top: 282px;
+  position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.frame-2:hover {
+  background: #218838;
 }
 .get-started {
   color: #000000;
-  text-align: left;
+  text-align: center;
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  position: absolute;
-  left: 50%;
-  translate: -50% -50%;
-  top: 50%;
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .footer {
   padding: 10px;
