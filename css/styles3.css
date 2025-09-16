@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .contact {
-  background: #ffffff;
+  background: #000000 !important;
   height: 1024px;
   position: relative;
   overflow: hidden;

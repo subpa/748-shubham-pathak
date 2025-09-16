@@ -3,8 +3,7 @@
   box-sizing: border-box;
 }
 .home {
-  background: linear-gradient(to left, #000000, #000000),
-    linear-gradient(to left, #ffffff, #ffffff);
+  background: #000000 !important;
   padding: 56px 73px 56px 73px;
   display: flex;
   flex-direction: column;
